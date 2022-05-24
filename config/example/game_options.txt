@@ -48,7 +48,7 @@ REVIVAL_BRAIN_LIFE -1
 
 
 ## These modify the run/walk speed of all mobs before the mob-specific modifiers are applied. 
-RUN_DELAY 2
+RUN_DELAY 3
 WALK_DELAY 4
 CREEP_DELAY 6
 
@@ -87,7 +87,7 @@ MAX_CLIENT_VIEW_Y 30
 #MAX_CHARACTER_ASPECTS 5
 
 ## Allow multiple input keys to be pressed for diagonal movement.
-#ALLOW_DIAGONAL_MOVEMENT
+ALLOW_DIAGONAL_MOVEMENT
 
 ## Threshold of where brain damage begins to affect dexterity (70 brainloss above this means zero dexterity). Default is 30.
 #DEXTERITY_MALUS_BRAINLOSS_THRESHOLD 30

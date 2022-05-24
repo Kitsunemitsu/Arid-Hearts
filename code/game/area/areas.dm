@@ -82,7 +82,7 @@ var/global/list/areas = list()
 /area/Del()
 	global.areas -= src
 	. = ..()
-	
+
 /area/Destroy()
 	global.areas -= src
 	..()
@@ -313,9 +313,9 @@ var/global/list/mob/living/forced_ambiance_list = new
 	if(L.ckey)
 		play_ambience(L)
 		do_area_blurb(L)
-		
+
 	L.lastarea = newarea
-	
+
 
 /area/Exited(A)
 	if(isliving(A))
@@ -327,8 +327,8 @@ var/global/list/mob/living/forced_ambiance_list = new
 		return
 
 	if(L?.get_preference_value(/datum/client_preference/area_info_blurb) != PREF_YES)
-		return 
-	
+		return
+
 	if(!(L.ckey in blurbed_stated_to))
 		blurbed_stated_to += L.ckey
 		to_chat(L, SPAN_NOTICE(FONT_SMALL("[description]")))
