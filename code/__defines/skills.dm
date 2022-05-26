@@ -12,6 +12,7 @@
 #define SKILL_EASY     1
 #define SKILL_AVERAGE  2
 #define SKILL_HARD     4
+#define SKILL_IMPOSSIBLE     100
 
 #define SKILL_LITERACY      /decl/hierarchy/skill/organizational/literacy
 #define SKILL_FINANCE       /decl/hierarchy/skill/organizational/finance

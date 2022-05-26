@@ -71,9 +71,10 @@
 	display_color = "#ccffcc"
 
 
+
 //Fallout Override
 /decl/department/ncr
 	name = "New California Republic"
-	display_priority = -1
-	display_color = "#ccffcc"
+	display_priority = 1
+	display_color = "#cc8c5c"
 

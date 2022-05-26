@@ -30,7 +30,7 @@
 
 /datum/job/ministation/captain/equip(var/mob/living/carbon/human/H)
 	. = ..()
-	if(H) 
+	if(H)
 		H.verbs |= /mob/proc/freetradeunion_rename_company
 
 /datum/job/ministation/captain/get_access()
@@ -50,6 +50,8 @@
 			global.using_map.company_short = company_s
 		command_announcement.Announce("Congratulations to all members of [capitalize(global.using_map.company_name)] on the new name. Their rebranding has changed the [global.using_map.company_short] market value by [0.01*rand(-10,10)]%.", "Trade Union Name Change")
 	verbs -= /mob/proc/freetradeunion_rename_company
+
+
 
 /datum/job/ministation/hop
 	title = "Lieutenant"

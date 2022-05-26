@@ -115,6 +115,7 @@ var/global/list/skills = list()
 		mob.add_language(/decl/language/legal)
 
 // Category: General
+
 /decl/hierarchy/skill/general/eva
 	name = "Extra-vehicular activity"
 	uid =  "skill_eva"
@@ -126,6 +127,7 @@ var/global/list/skills = list()
 		"Experienced" = "You can use all kinds of space suits, including specialized versions. Your years of experience in EVA keep you from being disoriented in space, and you have experience using a jetpack to move around. <br>- You cannot slip anymore.",
 		"Master"      = "You are just as much at home in a vacuum as in atmosphere. You probably do your job almost entirely EVA.<br>- You cannot get floored anymore.<br>- You get bonus speed in zero-G."
 	)
+	difficulty = SKILL_IMPOSSIBLE
 
 /decl/hierarchy/skill/general/eva/mech
 	name = "Exosuit Operation"
@@ -135,9 +137,7 @@ var/global/list/skills = list()
 		"Untrained"   = "You are unfamiliar with exosuit controls, and if you attempt to use them you are liable to make mistakes.",
 		"Trained"     = "You are proficient in exosuit operation and safety, and can use them without penalties."
 	)
-	prerequisites = list(SKILL_EVA = SKILL_ADEPT)
-	default_max = SKILL_BASIC
-	difficulty = SKILL_AVERAGE
+	difficulty = SKILL_IMPOSSIBLE
 
 /decl/hierarchy/skill/general/pilot
 	name = "Piloting"
@@ -150,8 +150,7 @@ var/global/list/skills = list()
 		"Experienced" = "You are an experienced pilot, and can safely take the helm of many types of craft. You could probably live in a spacecraft, and you're very well versed in essentially everything related to space-faring vessels. Not only can you fly a ship, but you can perform difficult maneuvers, and make most calculations related to piloting a spacecraft. You can maintain a ship. Skills of this level are typical for very experienced pilots. You have received formal piloting training.<br>- You can somewhat avoid meteors on normal speed while using tiny shuttlecrafts.",
 		"Master"      = "Not only are you an exceptional pilot, but you have mastered peripheral functions such as stellar navigation and FTL jump plotting. You have experience performing complex maneuvers, managing squadrons of small craft, and operating in hostile environments.<br>- You can mostly avoid meteors on normal speed using any shuttlecrafts.<br>- Less meteors will hit the ship while passing through meteor fields. <br>- You can manually land shuttles on exoplanets."
 	)
-	difficulty = SKILL_AVERAGE
-	default_max = SKILL_ADEPT
+	difficulty = SKILL_IMPOSSIBLE
 
 /decl/hierarchy/skill/general/hauling
 	name = "Athletics"
@@ -299,6 +298,7 @@ var/global/list/skills = list()
 		"Master"      = "You are an electrical engineer or the equivalent. You can design, upgrade, and modify electrical equipment and you are good at maximizing the efficiency of your power network. You can hack anything on the installation you can deal with power outages and electrical problems easily and efficiently.<br>- You can examine most wires on the hacking panel."
 	)
 
+
 /decl/hierarchy/skill/engineering/atmos
 	name = "Atmospherics"
 	uid =  "skill_atmos"
@@ -310,6 +310,7 @@ var/global/list/skills = list()
 		"Experienced" = "Your atmospherics experience lets you find, diagnose, and fix breaches efficiently. You can manage complex atmospherics systems without fear of making mistakes, and are proficient with all monitoring and pumping equipment at your disposal.<br>- You can dispense a larger selection of pipes from the RPD.",
 		"Master"      = "You are an atmospherics specialist. You monitor, modify, and optimize the installation atmospherics system, and you can quickly and easily deal with emergencies. You can modify atmospherics systems to do pretty much whatever you want them to. You can easily handle a fire or breach, and are proficient at securing an area and rescuing civilians, but you're equally likely to have simply prevented it from happening in the first place."
 	)
+	difficulty = SKILL_IMPOSSIBLE
 
 /decl/hierarchy/skill/engineering/engines
 	name = "Engines"

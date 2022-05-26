@@ -27,6 +27,11 @@ Now poorly imported for Nebula!
 	#include "ministation_shuttles.dm"
 	#include "ministation_objects.dm"
 
+
+	#include "fallout_areas.dm"
+	#include "fallout_turf.dm"
+
+
 	#include "jobs/command.dm"
 	#include "jobs/civilian.dm"
 	#include "jobs/engineering.dm"

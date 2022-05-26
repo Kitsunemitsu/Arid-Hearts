@@ -1,7 +1,7 @@
 /datum/job/ministation/assistant
 	title = "Assistant"
-	total_positions = -1
-	spawn_positions = -1
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "absolutely everyone"
 	economic_power = 1
 	access = list()
