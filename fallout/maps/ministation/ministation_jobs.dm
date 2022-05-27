@@ -4,6 +4,12 @@
 	id_hud_icons = 'maps/ministation/hud.dmi'
 	allowed_jobs = list(
 	//where the NCR homies at
+		/datum/job/ministation/ncr/co,
+		/datum/job/ministation/ncr/osi,
+		/datum/job/ministation/ncr/nco/firstsergeant,
+		/datum/job/ministation/ncr/nco/sergeant,
+		/datum/job/ministation/ncr/nco,
+		/datum/job/ministation/ncr/trooper,
 		/datum/job/ministation/ncr,
-		/datum/job/ministation/ncr/trooper
+
 	)

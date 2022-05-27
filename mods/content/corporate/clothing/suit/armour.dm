@@ -47,8 +47,8 @@
 	desc = "An armored vest that protects against some damage. This one has a corporate badge."
 	icon = 'mods/content/corporate/icons/clothing/suit/armor/sec.dmi'
 	armor = list(
-		melee = ARMOR_MELEE_RESISTANT,
-		bullet = ARMOR_BALLISTIC_SMALL,
+		melee = ARMOR_MELEE_KNIVES,
+		bullet = ARMOR_BALLISTIC_PISTOL,
 		laser = ARMOR_LASER_HANDGUNS,
 		energy = ARMOR_ENERGY_MINOR,
 		bomb = ARMOR_BOMB_MINOR

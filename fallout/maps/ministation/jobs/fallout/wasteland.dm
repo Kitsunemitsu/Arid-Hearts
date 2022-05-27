@@ -2,7 +2,7 @@
 	title = "Wastelander"
 	total_positions = -1
 	spawn_positions = -1
-	supervisors = "absolutely everyone"
+	supervisors = "absolutely no one"
 	economic_power = 1
 	access = list()
 	minimal_access = list()
