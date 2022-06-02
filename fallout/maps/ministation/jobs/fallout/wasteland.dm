@@ -9,12 +9,4 @@
 	outfit_type = /decl/hierarchy/outfit/job/ministation_assistant
 	department_types = list(/decl/department/civilian)
 	event_categories = list(ASSIGNMENT_GARDENER)
-
-/datum/job/ministation/assistant/get_access()
-	if(config.assistant_maint)
-		return list(access_maint_tunnels)
-	else
-		return list()
-
-/decl/hierarchy/outfit/job/ministation_assistant
-	name = "Job - Ministation Assistant"
+	skill_points = 40	//They should be able to max out a few skills

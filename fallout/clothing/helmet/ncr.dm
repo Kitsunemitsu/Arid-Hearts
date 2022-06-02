@@ -35,3 +35,20 @@
 	name = "NCR medical beret"
 	desc = "A reinforced kevlar beret used by the OSI officer."
 	icon = 'fallout/clothing/helmet/ncr/medical.dmi'
+
+
+//Rangers
+/obj/item/clothing/head/helmet/ncr/ranger
+	name = "NCR ranger beret"
+	desc = "A reinforced kevlar beret used by NCR rangers."
+	icon = 'fallout/clothing/helmet/ncr/ranger/rangerberet.dmi'
+
+/obj/item/clothing/head/helmet/ncr/sgtranger
+	name = "NCR ranger sergeant hat"
+	desc = "A reinforced cowboy hat used by NCR ranger sergeants."
+	icon = 'fallout/clothing/helmet/ncr/ranger/sergeant.dmi'
+
+/obj/item/clothing/head/helmet/ncr/vetranger
+	name = "Veteran ranger helmet"
+	desc = "The helmet worn by veteran rangers."
+	icon = 'fallout/clothing/helmet/ncr/ranger/vetranger.dmi'

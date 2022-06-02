@@ -11,5 +11,8 @@
 		/datum/job/ministation/ncr/nco,
 		/datum/job/ministation/ncr/trooper,
 		/datum/job/ministation/ncr,
+		/datum/job/ministation/ncr/vetranger,
+		/datum/job/ministation/ncr/sgtranger,
+		/datum/job/ministation/ncr/ranger,
 
 	)

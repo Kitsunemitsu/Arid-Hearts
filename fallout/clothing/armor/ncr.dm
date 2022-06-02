@@ -42,3 +42,20 @@
 	name = "NCR officer armor"
 	desc = "Lightweight armor for desert operations. This one is reinforced for extra protection and worn by the commanding officer."
 	icon = 'fallout/clothing/armor/ncr/commandingofficer.dmi'
+
+
+//Rangers
+/obj/item/clothing/suit/armor/vest/ncr/ranger
+	name = "NCR ranger duster"
+	desc = "Lightweight duster for desert operations."
+	icon = 'fallout/clothing/armor/ncr/ranger/ranger.dmi'
+
+/obj/item/clothing/suit/armor/vest/ncr/reinforced/sgtranger
+	name = "NCR ranger sergeant armor"
+	desc = "Lightweight duster for desert operations. This one is reinforced for extra protection and worn by the ranger sergeant."
+	icon = 'fallout/clothing/armor/ncr/ranger/sergeant.dmi'
+
+/obj/item/clothing/suit/armor/vest/ncr/reinforced/vetranger
+	name = "NCR veteran ranger armor"
+	desc = "Lightweight duster for desert operations. This one is reinforced for extra protection and worn by the veteran ranger."
+	icon = 'fallout/clothing/armor/ncr/ranger/veteran.dmi'

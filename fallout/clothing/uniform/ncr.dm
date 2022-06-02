@@ -1,3 +1,4 @@
+//Standard uniforms
 /obj/item/clothing/under/work/ncrtrooper
 	name = "NCR trooper uniform"
 	desc = "Breathable loose clothing for operating in desert environments."
@@ -12,3 +13,20 @@
 	name = "NCR officer uniform"
 	desc = "A uniform used by NCR officers."
 	icon = 'fallout/clothing/uniform/ncr/officer.dmi'
+
+
+//Rangers
+/obj/item/clothing/under/work/ranger
+	name = "NCR ranger uniform"
+	desc = "A uniform used by NCR rangers."
+	icon = 'fallout/clothing/uniform/ncr/ranger/ranger.dmi'
+
+/obj/item/clothing/under/work/vetranger
+	name = "NCR veteran ranger uniform"
+	desc = "A uniform used by NCR veteran rangers."
+	icon = 'fallout/clothing/uniform/ncr/ranger/veteran.dmi'
+
+/obj/item/clothing/under/work/sgtranger
+	name = "NCR ranger sergeant uniform"
+	desc = "A uniform used by NCR ranger sergeants."
+	icon = 'fallout/clothing/uniform/ncr/ranger/sergeant.dmi'

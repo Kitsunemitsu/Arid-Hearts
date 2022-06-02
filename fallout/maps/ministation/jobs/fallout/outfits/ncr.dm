@@ -38,3 +38,27 @@
 	head = /obj/item/clothing/head/helmet/ncr/medical
 	gloves = /obj/item/clothing/gloves/latex
 	hands = null
+
+/decl/hierarchy/outfit/job/ncr/ranger
+	name = "Job - NCR Ranger"
+	suit = /obj/item/clothing/suit/armor/vest/ncr/ranger
+	uniform = /obj/item/clothing/under/work/ranger
+	head = /obj/item/clothing/head/helmet/ncr/ranger
+	glasses = /obj/item/clothing/glasses/sunglasses
+	hands = null
+
+/decl/hierarchy/outfit/job/ncr/sgtranger
+	name = "Job - NCR Ranger Sergeant"
+	suit = /obj/item/clothing/suit/armor/vest/ncr/reinforced/sgtranger
+	uniform = /obj/item/clothing/under/work/sgtranger
+	head = /obj/item/clothing/head/helmet/ncr/sgtranger
+	glasses = /obj/item/clothing/glasses/sunglasses
+	hands = null
+
+/decl/hierarchy/outfit/job/ncr/vetranger
+	name = "Job - NCR Veteran Ranger"
+	suit = /obj/item/clothing/suit/armor/vest/ncr/reinforced/vetranger
+	uniform = /obj/item/clothing/under/work/vetranger
+	head = /obj/item/clothing/head/helmet/ncr/vetranger
+	glasses = /obj/item/clothing/glasses/sunglasses
+	hands = null
