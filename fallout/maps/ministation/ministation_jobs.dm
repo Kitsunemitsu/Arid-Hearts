@@ -15,4 +15,16 @@
 		/datum/job/ministation/ncr/sgtranger,
 		/datum/job/ministation/ncr/ranger,
 
+	//Brotherhood of Sneed
+		/datum/job/ministation/bos/headpaladin,
+		/datum/job/ministation/bos/headknight,
+		/datum/job/ministation/bos/headscribe,
+		/datum/job/ministation/bos/snrpaladin,
+		/datum/job/ministation/bos/snrknight,
+		/datum/job/ministation/bos/snrscribe,
+		/datum/job/ministation/bos/paladin,
+		/datum/job/ministation/bos/knight,
+		/datum/job/ministation/bos/scribe,
+		/datum/job/ministation/bos,
+
 	)

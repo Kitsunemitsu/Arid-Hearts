@@ -78,3 +78,9 @@
 	display_priority = 1
 	display_color = "#cc8c5c"
 
+
+/decl/department/bos
+	name = "Brotherhood Of Steel"
+	display_priority = 2
+	display_color = "#727d7c"
+
