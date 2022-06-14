@@ -8,7 +8,7 @@
 /obj/item/gun/projectile/shotgun/pump/trench
 	name = "trench shotgun"
 	desc = "A shotgun found in the hands of the NCR."
-	icon = 'fallout/guns/icons/trench.dmi'
+	icon = 'fallout/guns/icons/shotgun/trench.dmi'
 	max_shells = 6
 	ammo_type = /obj/item/ammo_casing/shotgun/pellet
 
@@ -20,7 +20,7 @@
 /obj/item/gun/projectile/shotgun/pump/hunting
 	name = "hunting shotgun"
 	desc = "A 5 capacity shotgun found in the wastes."
-	icon = 'fallout/guns/icons/huntingshotgun.dmi'
+	icon = 'fallout/guns/icons/shotgun/huntingshotgun.dmi'
 	max_shells = 4
 	ammo_type = /obj/item/ammo_casing/shotgun/pellet
 
@@ -34,7 +34,7 @@
 /obj/item/gun/projectile/shotgun/doublebarrel/widowmaker
 	name = "winchester widowmaker"
 	desc = "A standard double barreled shotgun"
-	icon = 'fallout/guns/icons/widowmaker.dmi'
+	icon = 'fallout/guns/icons/shotgun/widowmaker.dmi'
 	ammo_type = /obj/item/ammo_casing/shotgun/pellet
 	screen_shake = 0.2
 	accuracy = -2
@@ -44,7 +44,7 @@
 /obj/item/gun/projectile/shotgun/doublebarrel/caravan
 	name = "caravan shotgun"
 	desc = "A standard double barreled shotgun"
-	icon = 'fallout/guns/icons/widowmaker.dmi'
+	icon = 'fallout/guns/icons/shotgun/caravanshotgun.dmi'
 	ammo_type = /obj/item/ammo_casing/shotgun/pellet
 	screen_shake = 0.1
 	accuracy = 0

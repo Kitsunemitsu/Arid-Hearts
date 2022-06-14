@@ -9,6 +9,7 @@
 	suit = /obj/item/clothing/suit/armor/vest/bos/scribe
 	glasses = /obj/item/clothing/glasses/sunglasses
 	gloves = /obj/item/clothing/gloves/latex
+	belt = /obj/item/gun/energy/laser/aep7
 
 /decl/hierarchy/outfit/job/bos/scribe/snr
 	name = "Job - Brotherhood Rroctor"
@@ -22,6 +23,7 @@
 	name = "Job - Brotherhood Knight"
 	suit = /obj/item/clothing/suit/armor/vest/bos
 	head = /obj/item/clothing/head/helmet/bos
+	belt = /obj/item/gun/energy/laser/aer9
 
 /decl/hierarchy/outfit/job/bos/knight/snr
 	name = "Job - Brotherhood Senior Knight"
@@ -37,6 +39,7 @@
 	name = "Job - Brotherhood Paladin"
 	suit = /obj/item/clothing/suit/powered/t45b
 	head = /obj/item/clothing/head/helmet/powered/t45b
+	belt = /obj/item/gun/energy/laser/aer12
 
 /decl/hierarchy/outfit/job/bos/paladin/head
 	name = "Job - Brotherhood Head Paladin"

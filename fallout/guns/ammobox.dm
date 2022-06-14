@@ -1,5 +1,5 @@
 /obj/item/storage/box/ammo/fallout
-	icon = 'fallout/guns/icons/misc/ammobox.dmi'
+	icon = 'fallout/guns/icons/!misc/ammobox.dmi'
 	icon_state = "slug"
 
 /obj/item/storage/box/ammo/fallout/slug
