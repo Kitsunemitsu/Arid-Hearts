@@ -48,6 +48,10 @@
 /obj/item/ammo_magazine/speedloader,
 /turf/simulated/floor/wood,
 /area/fallout)
+"gV" = (
+/obj/abstract/landmark/latejoin,
+/turf/simulated/floor/wood,
+/area/fallout)
 "hs" = (
 /obj/structure/table/woodentable,
 /obj/item/gun/projectile/automatic/assault_rifle/NCR,
@@ -106,6 +110,14 @@
 	},
 /turf/simulated/floor/wood,
 /area/fallout)
+"tv" = (
+/obj/abstract/landmark/latejoin/cryo_captain,
+/turf/simulated/floor/wood,
+/area/fallout)
+"vs" = (
+/obj/abstract/landmark/latejoin/cryo,
+/turf/simulated/floor/wood,
+/area/fallout)
 "yA" = (
 /obj/structure/table/woodentable_reinforced,
 /turf/simulated/floor/wood,
@@ -116,7 +128,7 @@
 /turf/simulated/floor/wood,
 /area/fallout)
 "Bv" = (
-/obj/abstract/landmark/latejoin,
+/obj/abstract/landmark/latejoin/cryo_two,
 /turf/simulated/floor/wood,
 /area/fallout)
 "KE" = (
@@ -32619,7 +32631,7 @@ ai
 ai
 rk
 af
-Bv
+af
 YP
 NC
 Ms
@@ -32875,7 +32887,7 @@ af
 af
 ai
 af
-af
+tv
 af
 ot
 Qm
@@ -33389,7 +33401,7 @@ af
 af
 ot
 af
-Bv
+af
 af
 yA
 Qm
@@ -33903,8 +33915,8 @@ ai
 ai
 ai
 rk
+vs
 af
-Bv
 YP
 NC
 Ms
@@ -34674,7 +34686,7 @@ af
 af
 ot
 af
-Bv
+af
 af
 YP
 Ms
@@ -34931,7 +34943,7 @@ af
 af
 ai
 af
-af
+gV
 af
 YP
 Ms
@@ -36745,7 +36757,7 @@ YP
 YP
 YP
 YP
-YP
+Ms
 Ms
 Ms
 YP
@@ -36999,10 +37011,10 @@ YP
 YP
 YP
 YP
-YP
-YP
-YP
-YP
+Ms
+Ms
+Ms
+Ms
 Ms
 Ms
 YP
@@ -37255,13 +37267,13 @@ YP
 YP
 YP
 YP
-YP
-YP
-YP
-YP
 Ms
 Ms
 Ms
+Ms
+Ms
+Ms
+YP
 YP
 YP
 YP
@@ -37512,12 +37524,12 @@ YP
 YP
 YP
 YP
-YP
-YP
-YP
-YP
 Ms
 Ms
+YP
+YP
+YP
+YP
 YP
 YP
 YP
@@ -37769,12 +37781,12 @@ YP
 YP
 YP
 YP
-YP
-YP
-YP
-YP
 Ms
 Ms
+YP
+YP
+YP
+YP
 YP
 YP
 Ms
@@ -38027,9 +38039,9 @@ YP
 YP
 YP
 YP
-YP
-YP
-YP
+Ms
+Ms
+Ms
 Ms
 Ms
 Ms
@@ -38284,10 +38296,10 @@ YP
 YP
 YP
 YP
-YP
-YP
-YP
-YP
+Ms
+Ms
+Ms
+Ms
 Ms
 Ms
 Ms

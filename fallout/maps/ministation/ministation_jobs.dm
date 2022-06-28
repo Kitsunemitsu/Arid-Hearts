@@ -1,20 +1,27 @@
 /datum/map/ministation
 	default_job_type = /datum/job/ministation/wastrel
-	default_department_type = /decl/department/civilian
+	default_department_type = /decl/department/wasteland
 	id_hud_icons = 'maps/ministation/hud.dmi'
 	allowed_jobs = list(
-	//where the NCR homies at
+	//Where the NCR homies at
 		//Command roles
 		/datum/job/ministation/ncr/co,
 		/datum/job/ministation/ncr/nco/firstsergeant,
 		/datum/job/ministation/ncr/nco/sergeant,
 		/datum/job/ministation/ncr/nco,
+
+		//Specialized roles
+		/datum/job/ministation/ncr/specialist,
+
 		//Grunts
 		/datum/job/ministation/ncr/trooper,
 		/datum/job/ministation/ncr,
+
 		//Non-combat roles
 		/datum/job/ministation/ncr/osi,
-		/datum/job/ministation/ncr/specialist,
+		/datum/job/ministation/ncr/supply,
+		/datum/job/ministation/ncr/offduty,
+
 		//Ranger
 		/datum/job/ministation/ncr/vetranger,
 		/datum/job/ministation/ncr/sgtranger,
@@ -31,5 +38,11 @@
 		/datum/job/ministation/bos/knight,
 		/datum/job/ministation/bos/scribe,
 		/datum/job/ministation/bos,
+
+	//Town Roles
+		/datum/job/ministation/town/alderman,
+		/datum/job/ministation/town/merchant,
+		/datum/job/ministation/town/provost,
+		/datum/job/ministation/town/citizen,
 
 	)

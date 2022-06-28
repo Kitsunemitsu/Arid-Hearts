@@ -46,6 +46,7 @@
 
 
 /obj/item/clothing/suit/armor/vest/bos/fieldscribe
+//Sprite Credit goes to Rebel0
 	name = "brotherhood scribe cloak"
 	desc = "a coat worn by brotherhood scribes."
 	icon = 'fallout/clothing/armor/bos/fieldscribe.dmi'

@@ -39,6 +39,13 @@
 	gloves = /obj/item/clothing/gloves/latex
 	hands = null
 
+/decl/hierarchy/outfit/job/ncr/support
+	name = "Job - NCR Support Roles"
+	suit = null
+	head = null
+	gloves = /obj/item/clothing/gloves/tactical
+	hands = null
+
 /decl/hierarchy/outfit/job/ncr/ranger
 	name = "Job - NCR Ranger"
 	suit = /obj/item/clothing/suit/armor/vest/ncr/ranger
@@ -62,3 +69,4 @@
 	head = /obj/item/clothing/head/helmet/ncr/vetranger
 	glasses = /obj/item/clothing/glasses/sunglasses
 	hands = null
+

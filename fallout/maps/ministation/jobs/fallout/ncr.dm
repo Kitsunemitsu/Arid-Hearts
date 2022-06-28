@@ -89,7 +89,7 @@
 
 //Specialist jobs
 /datum/job/ministation/ncr/osi
-	title = "OSI Officer"
+	title = "OSI Researcher"
 	total_positions = 1
 	spawn_positions = 1
 	outfit_type = /decl/hierarchy/outfit/job/ncr/osi
@@ -111,18 +111,44 @@
 	skill_points = 32	//Higher ranks get more skills.
 
 
+/datum/job/ministation/ncr/supply
+	title = "OSI Cadet"
+	total_positions = 2
+	spawn_positions = 2
+	outfit_type = /decl/hierarchy/outfit/job/ncr/support
+	alt_titles = list()
+
+	min_skill = list(
+		SKILL_LITERACY  = SKILL_BASIC,
+		SKILL_HAULING 	= SKILL_ADEPT,
+		SKILL_CHEMISTRY = SKILL_BASIC
+	)
+	skill_points = 20	//Higher ranks get more skills.
+
+
+/datum/job/ministation/ncr/offduty
+	title = "NCR Off-Duty"
+	total_positions = 4
+	spawn_positions = 4
+	outfit_type = /decl/hierarchy/outfit/job/ncr/support
+	alt_titles = list()
+
+	min_skill = list()
+	skill_points = 20.
+
+
 /datum/job/ministation/ncr/specialist
 	title = "NCR Specialist"
 	total_positions = 2
 	spawn_positions = 2
-	outfit_type = /decl/hierarchy/outfit/job/ncr/osi
 	alt_titles = list()
+	outfit_type = /decl/hierarchy/outfit/job/ncr/support
 
 	min_skill = list(
 		SKILL_LITERACY  = SKILL_ADEPT,
 		SKILL_WEAPONS	= SKILL_BASIC,
 
-	// Due to the lack of books we have to give them basic medical and chemistry to let them know that they really should be
+	// Due to the lack of books we have to give them basic medical and engineering to let them know that they really should be
 		SKILL_MEDICAL   = SKILL_BASIC,
 		SKILL_CHEMISTRY = SKILL_BASIC,
 		SKILL_CONSTRUCTION = SKILL_BASIC,

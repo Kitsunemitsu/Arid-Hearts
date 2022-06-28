@@ -6,7 +6,7 @@
 	economic_power = 1
 	access = list()
 	minimal_access = list()
-	outfit_type = /decl/hierarchy/outfit/job/ministation_assistant
-	department_types = list(/decl/department/civilian)
+	outfit_type = /decl/hierarchy/outfit/job/town
+	department_types = list(/decl/department/wasteland)
 	event_categories = list(ASSIGNMENT_GARDENER)
 	skill_points = 40	//They should be able to max out a few skills
