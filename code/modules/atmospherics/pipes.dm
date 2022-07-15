@@ -13,6 +13,7 @@
 	build_icon = 'icons/obj/pipe-item.dmi'
 	pipe_class = PIPE_CLASS_BINARY
 	atom_flags = ATOM_FLAG_CAN_BE_PAINTED | ATOM_FLAG_NO_REACT
+	obj_flags = OBJ_FLAG_MOVES_UNSUPPORTED
 
 	frame_type = /obj/item/pipe
 	uncreated_component_parts = null // No apc connection
@@ -61,7 +62,7 @@
 
 /obj/machinery/atmospherics/pipe/proc/update_sound(var/playing)
 	if(playing && !sound_token)
-		sound_token = play_looping_sound(src, SOUND_ID, "sound/machines/pipeleak.ogg", volume = 8, range = 3, falloff = 1, prefer_mute = TRUE)
+		sound_token = play_looping_sound(src, SOUND_ID, 'sound/machines/pipeleak.ogg', volume = 8, range = 3, falloff = 1, prefer_mute = TRUE)
 	else if(!playing && sound_token)
 		QDEL_NULL(sound_token)
 
@@ -79,7 +80,7 @@
 	qdel(parent)
 	..()
 	var/turf/T = loc
-	if(level == 1 && !T.is_plating())
+	if(level == 1 && isturf(T) && !T.is_plating())
 		hide(1)
 
 /obj/machinery/atmospherics/pipe/return_air()
@@ -120,6 +121,8 @@
 		if(liquid_temporary)
 			liquid_temporary.trans_to(loc, liquid_temporary.total_volume)
 			liquid_temporary = null
+	if(leaking)
+		STOP_PROCESSING_MACHINE(src, MACHINERY_PROCESS_SELF)
 	. = ..()
 
 /obj/machinery/atmospherics/pipe/deconstruction_pressure_check()

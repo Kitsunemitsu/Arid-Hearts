@@ -54,6 +54,7 @@
 	clicksound = "button"
 	clickvol = 30
 	layer = ABOVE_WINDOW_LAYER
+	obj_flags = OBJ_FLAG_MOVES_UNSUPPORTED
 
 	base_type = /obj/machinery/alarm
 	frame_type = /obj/item/frame/air_alarm
@@ -128,7 +129,7 @@
 	. = ..()
 
 /obj/machinery/alarm/Destroy()
-	events_repository.unregister(/decl/observ/name_set, src, get_area(src), .proc/change_area_name)
+	events_repository.unregister(/decl/observ/name_set, get_area(src), src, .proc/change_area_name)
 	unregister_radio(src, frequency)
 	return ..()
 
@@ -140,7 +141,7 @@
 		return // spawned in nullspace, presumably as a prototype for construction purposes.
 	area_uid = alarm_area.uid
 	if (name == "alarm")
-		SetName("[alarm_area.name] Air Alarm")
+		SetName("[alarm_area.proper_name] Air Alarm")
 
 	// breathable air according to human/Life()
 	TLV[/decl/material/gas/oxygen] =			list(16, 19, 135, 140) // Partial pressure, kpa
@@ -378,10 +379,10 @@
 /obj/machinery/alarm/proc/register_env_machine(var/m_id, var/device_type)
 	var/new_name
 	if (device_type=="AVP")
-		new_name = "[alarm_area.name] Vent Pump #[alarm_area.air_vent_names.len+1]"
+		new_name = "[alarm_area.proper_name] Vent Pump #[alarm_area.air_vent_names.len+1]"
 		alarm_area.air_vent_names[m_id] = new_name
 	else if (device_type=="AScr")
-		new_name = "[alarm_area.name] Air Scrubber #[alarm_area.air_scrub_names.len+1]"
+		new_name = "[alarm_area.proper_name] Air Scrubber #[alarm_area.air_scrub_names.len+1]"
 		alarm_area.air_scrub_names[m_id] = new_name
 	send_signal(m_id, list("init" = new_name) )
 
@@ -459,7 +460,7 @@
 	var/datum/signal/alert_signal = new
 	alert_signal.source = src
 	alert_signal.transmission_method = 1
-	alert_signal.data["zone"] = alarm_area.name
+	alert_signal.data["zone"] = alarm_area.proper_name
 	alert_signal.data["type"] = "Atmospheric"
 
 	if(alert_level==2)
@@ -807,6 +808,7 @@ FIRE ALARM
 	idle_power_usage = 2
 	active_power_usage = 6
 	power_channel = ENVIRON
+	obj_flags = OBJ_FLAG_MOVES_UNSUPPORTED
 
 	base_type = /obj/machinery/firealarm
 	frame_type = /obj/item/frame/fire_alarm
