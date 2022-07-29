@@ -11,6 +11,8 @@ var/global/list/areas = list()
 	luminosity =    0
 	mouse_opacity = 0
 
+	var/proper_name /// Automatically set by SetName and Initialize; cached result of strip_improper(name).
+
 	var/fire
 	var/party
 	var/eject
@@ -63,6 +65,7 @@ var/global/list/areas = list()
 /area/New()
 	icon_state = ""
 	uid = ++global_uid
+	proper_name = strip_improper(name)
 	luminosity = !dynamic_lighting
 	..()
 
@@ -287,7 +290,8 @@ var/global/list/areas = list()
 		for(var/obj/machinery/light_switch/L in src)
 			L.sync_state()
 		update_icon()
-		power_change()
+	for(var/obj/machinery/light/M in src)
+		M.delay_and_set_on(M.expected_to_be_on(), 1 SECOND)
 
 /area/proc/set_emergency_lighting(var/enable)
 	for(var/obj/machinery/light/M in src)
@@ -442,3 +446,7 @@ var/global/list/mob/living/forced_ambiance_list = new
 
 /area/proc/has_turfs()
 	return !!(locate(/turf) in src)
+
+/area/SetName(new_name)
+	. = ..()
+	proper_name = strip_improper(new_name)

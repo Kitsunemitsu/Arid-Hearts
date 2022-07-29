@@ -1,20 +1,24 @@
-/turf/proc/CanZPass(atom/A, direction)
-	if(z == A.z) //moving FROM this turf
-		return direction == UP //can't go below
-	else
-		if(direction == UP) //on a turf below, trying to enter
-			return 0
-		if(direction == DOWN) //on a turf above, trying to enter
-			return !density
+/// `direction` is the direction the atom is trying to leave by.
+/turf/proc/CanZPass(atom/A, direction, check_neighbor_canzpass = TRUE)
 
-/turf/space/CanZPass(atom/A, direction)
-	if(locate(/obj/structure/catwalk, src))
-		if(z == A.z)
-			if(direction == DOWN)
-				return 0
-		else if(direction == UP)
-			return 0
-	return 1
+	if(direction == UP)
+		if(!HasAbove(z))
+			return FALSE
+		if(check_neighbor_canzpass)
+			var/turf/T = GetAbove(src)
+			if(!T.CanZPass(A, DOWN, FALSE))
+				return FALSE
+
+	else if(direction == DOWN)
+		if(!is_open() || !HasBelow(z) || (locate(/obj/structure/catwalk) in src))
+			return FALSE
+		if(check_neighbor_canzpass)
+			var/turf/T = GetBelow(src)
+			if(!T.CanZPass(A, UP, FALSE))
+				return FALSE
+
+	// Hate calling Enter() directly, but that's where obstacles are checked currently.
+	return Enter(A, A)
 
 ////////////////////////////////
 // Open SIMULATED
@@ -26,19 +30,11 @@
 	density = 0
 	pathweight = 100000 //Seriously, don't try and path over this one numbnuts
 	z_flags = ZM_MIMIC_DEFAULTS | ZM_MIMIC_OVERWRITE | ZM_MIMIC_NO_AO | ZM_ALLOW_ATMOS
+	turf_flags = TURF_FLAG_BACKGROUND
 
 /turf/simulated/open/flooded
 	name = "open water"
 	flooded = TRUE
-
-/turf/simulated/open/CanZPass(atom/A, direction)
-	if(locate(/obj/structure/catwalk, src))
-		if(z == A.z)
-			if(direction == DOWN)
-				return 0
-		else if(direction == UP)
-			return 0
-	return 1
 
 /turf/simulated/open/update_dirt()
 	return 0
@@ -145,15 +141,6 @@
 /turf/exterior/open/flooded
 	name = "open water"
 	flooded = TRUE
-
-/turf/exterior/open/CanZPass(atom/A, direction)
-	if(locate(/obj/structure/catwalk, src))
-		if(z == A.z)
-			if(direction == DOWN)
-				return 0
-		else if(direction == UP)
-			return 0
-	return 1
 
 /turf/exterior/open/Entered(var/atom/movable/mover, var/atom/oldloc)
 	..()
