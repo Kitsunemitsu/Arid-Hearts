@@ -3426,6 +3426,7 @@
 #include "fallout\clothing\uniform\bos.dm"
 #include "fallout\clothing\uniform\ncr.dm"
 #include "fallout\clothing\uniform\town.dm"
+#include "fallout\flora\flora.dm"
 #include "fallout\guns\ammobox.dm"
 #include "fallout\guns\automatic.dm"
 #include "fallout\guns\laser.dm"

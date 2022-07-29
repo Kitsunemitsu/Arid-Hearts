@@ -24,3 +24,21 @@
 	accuracy = 3
 	accuracy_power = 4
 	one_hand_penalty = 3
+
+
+/obj/item/gun/projectile/revolver/revolver357
+	name = "357 Revolver"
+	desc = "A Magnum Double Action is a choice revolver for when you absolutely, positively need to put a hole in the other guy, this one is snubnosed."
+	icon = 'fallout/guns/icons/revolver/revolver357.dmi'
+	accuracy = 3
+	accuracy_power = 4
+	one_hand_penalty = 3
+
+
+/obj/item/gun/projectile/revolver/revolver45
+	name = "45 ACP Revolver"
+	desc = "A Magnum Double Action is a choice revolver for when you absolutely, positively need to put a hole in the other guy, this one is snubnosed."
+	icon = 'fallout/guns/icons/revolver/revolver357.dmi'
+	accuracy = 3
+	accuracy_power = 4
+	one_hand_penalty = 3

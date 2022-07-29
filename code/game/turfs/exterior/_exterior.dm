@@ -13,6 +13,7 @@
 	var/icon_has_corners = FALSE
 	var/list/affecting_heat_sources
 	var/obj/effect/overmap/visitable/sector/exoplanet/owner
+	initial_gas = list(/decl/material/gas/oxygen = MOLES_O2STANDARD, /decl/material/gas/nitrogen = MOLES_N2STANDARD)
 
 /turf/exterior/Initialize(mapload, no_update_icon = FALSE)
 
@@ -83,6 +84,7 @@
 	affecting_heat_sources = null
 	. = ..()
 
+/*
 /turf/exterior/return_air()
 	var/datum/gas_mixture/gas
 	if(owner)
@@ -99,7 +101,7 @@
 			break
 		var/obj/structure/fire_source/heat_source = thing
 		gas.temperature = gas.temperature + heat_source.exterior_temperature / max(1, get_dist(src, get_turf(heat_source)))
-	return gas
+	return gas*/
 
 /turf/exterior/levelupdate()
 	for(var/obj/O in src)
@@ -130,7 +132,7 @@
 	SHOULD_CALL_PARENT(FALSE)
 	if(!istype(src, get_base_turf_by_area(src)) && (severity == 1 || (severity == 2 && prob(40))))
 		ChangeTurf(get_base_turf_by_area(src))
-	
+
 /turf/exterior/on_update_icon()
 	. = ..() // Recalc AO and flooding overlay.
 	cut_overlays()

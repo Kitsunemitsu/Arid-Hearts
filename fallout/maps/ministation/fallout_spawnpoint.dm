@@ -1,5 +1,6 @@
 var/global/list/latejoin_cryo_two = list()
 var/global/list/latejoin_cryo_captain = list()
+
 /obj/abstract/landmark/latejoin/cryo_two/add_loc()
 	global.latejoin_cryo_two |= get_turf(src)
 

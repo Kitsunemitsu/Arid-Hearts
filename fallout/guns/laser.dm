@@ -1,6 +1,6 @@
 /obj/item/gun/energy/laser/aep7
-	name = "AER9 Laser Rifle"
-	desc = "An AER9 laser rifle."
+	name = "AEP7 Laser Pistol"
+	desc = "An AEP7 Laser Pistol."
 	icon = 'fallout/guns/icons/laser/aep7.dmi'
 	slot_flags = SLOT_LOWER_BODY|SLOT_BACK
 	max_shots = 12
