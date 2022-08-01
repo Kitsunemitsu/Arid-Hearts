@@ -1,7 +1,7 @@
 /mob/living/simple_animal/hostile/ghoul
 	name = "feral ghoul"
 	desc = "A ghoul."
-	icon = 'fallout/mobs/icons/mob.dmi'
+	icon = 'mods/content/fallout/mobs/icons/mob.dmi'
 	mob_size = MOB_SIZE_MEDIUM
 	speak_emote = list("rasps")
 	emote_hear = list("moans")

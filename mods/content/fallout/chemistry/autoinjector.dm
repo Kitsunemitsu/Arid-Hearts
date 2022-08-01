@@ -1,6 +1,6 @@
 /obj/item/chems/hypospray/autoinjector/stimpak
 	name = "stimpak"
-	icon = 'fallout/chemistry/icons/stimpak.dmi'
+	icon = 'mods/content/fallout/chemistry/icons/stimpak.dmi'
 	item_state = "stimpak"
 	icon_state = "stimpak"
 	band_color = COLOR_AMBER

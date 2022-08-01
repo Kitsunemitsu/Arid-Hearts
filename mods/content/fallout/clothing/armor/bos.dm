@@ -1,7 +1,7 @@
 /obj/item/clothing/suit/armor/vest/bos
 	name = "brotherhood knight armor"
 	desc = "armor worn by brotherhood knights."
-	icon = 'fallout/clothing/armor/bos/knight.dmi'
+	icon = 'mods/content/fallout/clothing/armor/bos/knight.dmi'
 	armor = list(
 		melee = ARMOR_MELEE_KNIVES,
 		bullet = ARMOR_BALLISTIC_PISTOL,
@@ -13,17 +13,17 @@
 /obj/item/clothing/suit/armor/vest/bos/senior
 	name = "senior knight armor"
 	desc = "armor worn by the brotherhood senior knight."
-	icon = 'fallout/clothing/armor/bos/snrknight.dmi'
+	icon = 'mods/content/fallout/clothing/armor/bos/snrknight.dmi'
 
 /obj/item/clothing/suit/armor/vest/bos/head
 	name = "knight-captain armor"
 	desc = "armor worn by the brotherhood knight-captain."
-	icon = 'fallout/clothing/armor/bos/headknight.dmi'
+	icon = 'mods/content/fallout/clothing/armor/bos/headknight.dmi'
 
 /obj/item/clothing/suit/armor/vest/bos/scribe
 	name = "brotherhood scribe robes"
 	desc = "a coat worn by brotherhood scribes."
-	icon = 'fallout/clothing/armor/bos/scribe.dmi'
+	icon = 'mods/content/fallout/clothing/armor/bos/scribe.dmi'
 	armor = list(
 		melee = ARMOR_MELEE_MINOR,
 		bullet = ARMOR_BALLISTIC_SMALL,
@@ -36,20 +36,20 @@
 /obj/item/clothing/suit/armor/vest/bos/scribe/snr
 	name = "brotherhood proctor robes"
 	desc = "a coat worn by the brotherhood head scribe."
-	icon = 'fallout/clothing/armor/bos/proctor.dmi'
+	icon = 'mods/content/fallout/clothing/armor/bos/proctor.dmi'
 
 
 /obj/item/clothing/suit/armor/vest/bos/scribe/head
 	name = "brotherhood head scribe cloak"
 	desc = "a coat worn by the brotherhood head scribe."
-	icon = 'fallout/clothing/armor/bos/headscribe.dmi'
+	icon = 'mods/content/fallout/clothing/armor/bos/headscribe.dmi'
 
 
 /obj/item/clothing/suit/armor/vest/bos/fieldscribe
 //Sprite Credit goes to Rebel0
 	name = "brotherhood scribe cloak"
 	desc = "a coat worn by brotherhood scribes."
-	icon = 'fallout/clothing/armor/bos/fieldscribe.dmi'
+	icon = 'mods/content/fallout/clothing/armor/bos/fieldscribe.dmi'
 	armor = list(
 		melee = ARMOR_MELEE_SMALL,
 		bullet = ARMOR_BALLISTIC_SMALL,

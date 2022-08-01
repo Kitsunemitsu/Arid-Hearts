@@ -1,7 +1,7 @@
 /obj/item/clothing/suit/armor/vest/town/alderman
 	name = "Alderman's coat"
 	desc = "coat worn by the town alderman."
-	icon = 'fallout/clothing/armor/town/alderman.dmi'
+	icon = 'mods/content/fallout/clothing/armor/town/alderman.dmi'
 	armor = list(
 		melee = ARMOR_MELEE_RESISTANT,
 		bullet = ARMOR_BALLISTIC_RESISTANT,
@@ -13,7 +13,7 @@
 /obj/item/clothing/suit/armor/vest/town/provost
 	name = "provost armor"
 	desc = "coat worn by the town alderman."
-	icon = 'fallout/clothing/armor/town/provost.dmi'
+	icon = 'mods/content/fallout/clothing/armor/town/provost.dmi'
 	armor = list(
 		melee = ARMOR_MELEE_RESISTANT,
 		bullet = ARMOR_BALLISTIC_RESISTANT,

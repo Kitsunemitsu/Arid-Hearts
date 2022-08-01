@@ -1,7 +1,7 @@
 /obj/item/clothing/suit/armor/vest/ncr
 	name = "NCR trooper desert armor"
 	desc = "Lightweight armor for desert operations."
-	icon = 'fallout/clothing/armor/ncr/trooper.dmi'
+	icon = 'mods/content/fallout/clothing/armor/ncr/trooper.dmi'
 	armor = list(
 		melee = ARMOR_MELEE_KNIVES,
 		bullet = ARMOR_BALLISTIC_PISTOL,
@@ -13,23 +13,23 @@
 /obj/item/clothing/suit/armor/vest/ncr/mantle
 	name = "NCR mantle armor"
 	desc = "Lightweight armor for desert operations."
-	icon = 'fallout/clothing/armor/ncr/mantle.dmi'
+	icon = 'mods/content/fallout/clothing/armor/ncr/mantle.dmi'
 
 /obj/item/clothing/suit/armor/vest/ncr/labcoat
 	name = "OSI officer armored labcoat"
 	desc = "The OSI Officer's armored labcoat. Smells of rubbing alcohol with a hint of whiskey."
-	icon = 'fallout/clothing/armor/ncr/osiofficer.dmi'
+	icon = 'mods/content/fallout/clothing/armor/ncr/osiofficer.dmi'
 
 /obj/item/clothing/suit/armor/vest/ncr/dress
 	name = "first sergeant's dress coat"
 	desc = "The First Sergeant's dress jacket. Smells brand new."
-	icon = 'fallout/clothing/armor/ncr/firstsarge.dmi'
+	icon = 'mods/content/fallout/clothing/armor/ncr/firstsarge.dmi'
 
 
 /obj/item/clothing/suit/armor/vest/ncr/reinforced
 	name = "NCR reinforced mantle armor"
 	desc = "Lightweight armor for desert operations. This one is reinforced for extra protection"
-	icon = 'fallout/clothing/armor/ncr/reinforcedmantle.dmi'
+	icon = 'mods/content/fallout/clothing/armor/ncr/reinforcedmantle.dmi'
 	armor = list(
 		melee = ARMOR_MELEE_RESISTANT,
 		bullet = ARMOR_BALLISTIC_RESISTANT,
@@ -41,21 +41,21 @@
 /obj/item/clothing/suit/armor/vest/ncr/reinforced/officer
 	name = "NCR officer armor"
 	desc = "Lightweight armor for desert operations. This one is reinforced for extra protection and worn by the commanding officer."
-	icon = 'fallout/clothing/armor/ncr/commandingofficer.dmi'
+	icon = 'mods/content/fallout/clothing/armor/ncr/commandingofficer.dmi'
 
 
 //Rangers
 /obj/item/clothing/suit/armor/vest/ncr/ranger
 	name = "NCR ranger duster"
 	desc = "Lightweight duster for desert operations."
-	icon = 'fallout/clothing/armor/ncr/ranger/ranger.dmi'
+	icon = 'mods/content/fallout/clothing/armor/ncr/ranger/ranger.dmi'
 
 /obj/item/clothing/suit/armor/vest/ncr/reinforced/sgtranger
 	name = "NCR ranger sergeant armor"
 	desc = "Lightweight duster for desert operations. This one is reinforced for extra protection and worn by the ranger sergeant."
-	icon = 'fallout/clothing/armor/ncr/ranger/sergeant.dmi'
+	icon = 'mods/content/fallout/clothing/armor/ncr/ranger/sergeant.dmi'
 
 /obj/item/clothing/suit/armor/vest/ncr/reinforced/vetranger
 	name = "NCR veteran ranger armor"
 	desc = "Lightweight duster for desert operations. This one is reinforced for extra protection and worn by the veteran ranger."
-	icon = 'fallout/clothing/armor/ncr/ranger/veteran.dmi'
+	icon = 'mods/content/fallout/clothing/armor/ncr/ranger/veteran.dmi'

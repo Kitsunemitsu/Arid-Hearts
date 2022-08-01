@@ -1,7 +1,7 @@
 /obj/item/clothing/head/helmet/town/riot
 	name = "Riot Helmet"
 	desc = "A combat helmet used by town provost."
-	icon = 'fallout/clothing/helmet/bos/knight.dmi'
+	icon = 'mods/content/fallout/clothing/helmet/bos/knight.dmi'
 	armor = list(
 		melee = ARMOR_MELEE_KNIVES,
 		bullet = ARMOR_BALLISTIC_PISTOL,

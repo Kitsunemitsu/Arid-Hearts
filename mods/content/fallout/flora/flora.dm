@@ -1,11 +1,11 @@
 /obj/structure/flora/fallout
-	icon = 'fallout/flora/icons/flora.dmi'
+	icon = 'mods/content/fallout/flora/icons/flora.dmi'
 	density = 0
 
-/obj/structure/flora/fallout/grass
+/obj/structure/flora/mods/content/fallout/grass
 	name = "tall grass"
 	icon_state = "tall_grass_8"
 
-/obj/structure/flora/fallout/cactus
+/obj/structure/flora/mods/content/fallout/cactus
 	name = "barrel cactus"
 	icon_state = "barrel_cactus_no_fruit"

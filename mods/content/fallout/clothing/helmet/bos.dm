@@ -1,7 +1,7 @@
 /obj/item/clothing/head/helmet/bos
 	name = "Brotherhood Knight Helmet"
 	desc = "A combat helmet used by brotherhood knights."
-	icon = 'fallout/clothing/helmet/bos/knight.dmi'
+	icon = 'mods/content/fallout/clothing/helmet/bos/knight.dmi'
 	armor = list(
 		melee = ARMOR_MELEE_KNIVES,
 		bullet = ARMOR_BALLISTIC_PISTOL,
@@ -14,9 +14,9 @@
 /obj/item/clothing/head/helmet/bos/snr
 	name = "Brotherhood Senior Knight Helmet"
 	desc = "A combat helmet used by brotherhood senior knights."
-	icon = 'fallout/clothing/helmet/bos/snrknight.dmi'
+	icon = 'mods/content/fallout/clothing/helmet/bos/snrknight.dmi'
 
 /obj/item/clothing/head/helmet/bos/head
 	name = "Brotherhood Head Knight Helmet"
 	desc = "A combat helmet used by the brotherhood head knights."
-	icon = 'fallout/clothing/helmet/bos/headknight.dmi'
+	icon = 'mods/content/fallout/clothing/helmet/bos/headknight.dmi'

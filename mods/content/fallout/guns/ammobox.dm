@@ -1,17 +1,17 @@
 /obj/item/storage/box/ammo/fallout
-	icon = 'fallout/guns/icons/!misc/ammobox.dmi'
+	icon = 'mods/content/fallout/guns/icons/!misc/ammobox.dmi'
 	icon_state = "slug"
 
-/obj/item/storage/box/ammo/fallout/slug
+/obj/item/storage/box/ammo/mods/content/fallout/slug
 	name = "large box of shotgun slugs"
 	startswith = list(/obj/item/ammo_magazine/shotholder = 6)
 
-/obj/item/storage/box/ammo/fallout/shells
+/obj/item/storage/box/ammo/mods/content/fallout/shells
 	name = "box of shotgun shells"
 	icon_state = "pellet"
 	startswith = list(/obj/item/ammo_magazine/shotholder/shell = 6)
 
-/obj/item/storage/box/ammo/fallout/magnum
+/obj/item/storage/box/ammo/mods/content/fallout/magnum
 	name = "box of magnum bullets"
 	icon_state = "magnum"
 	startswith = list(/obj/item/ammo_magazine/speedloader = 6)
