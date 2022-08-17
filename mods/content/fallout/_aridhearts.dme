@@ -1,8 +1,10 @@
 #ifndef MODPACK_ARIDHEARTS
 #define MODPACK_ARIDHEARTS
 #include "_aridhearts.dm"
+//Chemistry
 #include "chemistry\autoinjector.dm"
 #include "chemistry\reagents.dm"
+//Armor+ Clothing
 #include "clothing\armor\bos.dm"
 #include "clothing\armor\ncr.dm"
 #include "clothing\armor\powered.dm"
@@ -14,7 +16,9 @@
 #include "clothing\uniform\bos.dm"
 #include "clothing\uniform\ncr.dm"
 #include "clothing\uniform\town.dm"
+//Decor
 #include "flora\flora.dm"
+//Guns
 #include "guns\ammobox.dm"
 #include "guns\automatic.dm"
 #include "guns\laser.dm"
@@ -22,5 +26,7 @@
 #include "guns\revolver.dm"
 #include "guns\shotgun.dm"
 #include "guns\projectile\beam.dm"
+//Mobs
 #include "mobs\ghoul.dm"
+#include "mobs\animals.dm"
 #endif

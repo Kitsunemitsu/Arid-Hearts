@@ -1,7 +1,7 @@
 /mob/living/simple_animal/hostile/ghoul
 	name = "feral ghoul"
 	desc = "A ghoul."
-	icon = 'mods/content/fallout/mobs/icons/ghoul.dmi'
+	icon = 'mods/content/fallout/mobs/icons/human/ghoul.dmi'
 	mob_size = MOB_SIZE_MEDIUM
 	speak_emote = list("rasps")
 	emote_hear = list("moans")
@@ -19,17 +19,14 @@
 /mob/living/simple_animal/hostile/ghoul/reaver
 	name = "reaver ghoul"
 	desc = "A strong-looking ghoul."
-	icon = 'mods/content/fallout/mobs/icons/reaver.dmi'
+	icon = 'mods/content/fallout/mobs/icons/human/reaver.dmi'
 	harm_intent_damage = 12
 	health = 120
 	maxHealth = 120
 
 /mob/living/simple_animal/hostile/ghoul/ranged
-	name = "reaver ghoul"
-	desc = "A strong-looking ghoul."
-	icon = 'mods/content/fallout/mobs/icons/reaver.dmi'
-	harm_intent_damage = 12
-	health = 120
-	maxHealth = 120
+	name = "vault ghoul"
+	desc = "A ghoul wearing tattered vault clothese."
+	icon = 'mods/content/fallout/mobs/icons/human/vaultghoul.dmi'
 	projectilesound = 'sound/weapons/gunshot/gunshot_pistol.ogg'
 	projectiletype = /obj/item/gun/projectile/pistol
