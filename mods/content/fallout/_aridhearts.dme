@@ -1,10 +1,13 @@
 #ifndef MODPACK_ARIDHEARTS
 #define MODPACK_ARIDHEARTS
 #include "_aridhearts.dm"
+//Subsystems
+//#include "subsystem\_defines.dm"
+//#include "subsystem\daynight.dm"
 //Chemistry
 #include "chemistry\autoinjector.dm"
 #include "chemistry\reagents.dm"
-//Armor+ Clothing
+//Armor + Clothing
 #include "clothing\armor\bos.dm"
 #include "clothing\armor\ncr.dm"
 #include "clothing\armor\powered.dm"
@@ -29,4 +32,5 @@
 //Mobs
 #include "mobs\ghoul.dm"
 #include "mobs\animals.dm"
+#include "mobs\monster.dm"
 #endif

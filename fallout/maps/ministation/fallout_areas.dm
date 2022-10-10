@@ -5,6 +5,7 @@
 	show_starlight =      TRUE
 	requires_power =      FALSE
 
+
 /area/fallout/outdoors
 	name = "Outdoors Area"
 

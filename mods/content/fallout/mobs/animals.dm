@@ -48,7 +48,7 @@
 /mob/living/simple_animal/hostile/fallout/radscorp
 	name = "radscorpion"
 	desc = "A scorpion."
-	icon = 'mods/content/fallout/mobs/icons/animal/gecko.dmi'
+	icon = 'mods/content/fallout/mobs/icons/animal/radscorp.dmi'
 	speak_emote = list("chitters")
 	emote_hear = list("chitters")
 	harm_intent_damage = 12
@@ -58,7 +58,7 @@
 /mob/living/simple_animal/hostile/fallout/roach
 	name = "radroach"
 	desc = "A scorpion."
-	icon = 'mods/content/fallout/mobs/icons/animal/radscorp.dmi'
+	icon = 'mods/content/fallout/mobs/icons/animal/roach.dmi'
 	speak_emote = list("chitters")
 	emote_hear = list("chitters")
 	harm_intent_damage = 4

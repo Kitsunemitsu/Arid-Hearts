@@ -17,6 +17,11 @@
 	initial_gas = list(/decl/material/gas/oxygen = MOLES_O2STANDARD, /decl/material/gas/nitrogen = MOLES_N2STANDARD)
 
 /turf/exterior/Initialize(mapload, no_update_icon = FALSE)
+	var/turf/exterior/wall/closedturf = src
+	if(istype(closedturf))	//don't actually create light on closed turfs.
+		set_light(0)
+
+	set_light(3)
 
 	color = null
 

@@ -11,7 +11,6 @@
 	icon = 'mods/content/fallout/guns/icons/shotgun/trench.dmi'
 	max_shells = 6
 	ammo_type = /obj/item/ammo_casing/shotgun/pellet
-
 	screen_shake = 0.2
 	accuracy = -2
 	accuracy_power = 10
@@ -23,11 +22,20 @@
 	icon = 'mods/content/fallout/guns/icons/shotgun/huntingshotgun.dmi'
 	max_shells = 4
 	ammo_type = /obj/item/ammo_casing/shotgun/pellet
-
 	screen_shake = 0.1
 	accuracy = 0
 	accuracy_power = 3
 
+//Lever action
+/obj/item/gun/projectile/shotgun/pump/leveraction
+	name = "Lever-action shotgun"
+	desc = "A high capacity shotgun with very poor accuracy."
+	icon = 'mods/content/fallout/guns/icons/shotgun/leveraction.dmi'
+	max_shells = 8
+	ammo_type = /obj/item/ammo_casing/shotgun/pellet
+	screen_shake = 0.2
+	accuracy = -3
+	accuracy_power = 10
 
 
 //The widowmaker mirrors the trench shottie
