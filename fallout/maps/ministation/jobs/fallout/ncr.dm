@@ -134,7 +134,7 @@
 	alt_titles = list()
 
 	min_skill = list()
-	skill_points = 20.
+	skill_points = 20
 
 
 /datum/job/ministation/ncr/specialist

@@ -3438,6 +3438,7 @@
 #include "fallout\maps\ministation\fallout_spawnpoint.dm"
 #include "fallout\maps\ministation\ministation.dm"
 #include "fallout\maps\ministation\jobs\fallout\bos.dm"
+#include "fallout\maps\ministation\jobs\fallout\legion.dm"
 #include "fallout\maps\ministation\jobs\fallout\ncr.dm"
 #include "fallout\maps\ministation\jobs\fallout\town.dm"
 #include "fallout\maps\ministation\jobs\fallout\wasteland.dm"
@@ -3488,6 +3489,6 @@
 #include "maps\~mapsystem\maps_unit_testing.dm"
 #include "maps\~unit_tests\unit_testing.dm"
 #include "mods\_modpack.dm"
-#include "mods\content\fallout\_aridhearts.dm"
+#include "mods\content\scaling_descriptors.dm"
 #include "~code\global_init.dm"
 // END_INCLUDE

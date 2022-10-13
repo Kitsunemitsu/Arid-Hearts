@@ -17,6 +17,12 @@
 	display_color = "#727d7c"
 
 
+/decl/department/legion
+	name = "Caesar's Legion"
+	display_priority = 4
+	display_color = "#a33434"
+
+
 /decl/department/wasteland
 	name = "Wasteland"
 	display_priority = 0
