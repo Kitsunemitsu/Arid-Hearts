@@ -45,4 +45,22 @@
 		/datum/job/ministation/town/provost,
 		/datum/job/ministation/town/citizen,
 
+
+	//Legion
+		//Officers
+		/datum/job/ministation/legion/centurion,
+		/datum/job/ministation/legion/dec/vet,
+		/datum/job/ministation/legion/dec/prime,
+		/datum/job/ministation/legion/dec,
+
+		//Soldiers
+		/datum/job/ministation/legion/vet,
+		/datum/job/ministation/legion/prime,
+		/datum/job/ministation/legion/recruit,
+		/datum/job/ministation/legion/scout,
+
+		//Other
+		/datum/job/ministation/legion/camp/auxilia,
+		/datum/job/ministation/legion/camp,
+
 	)

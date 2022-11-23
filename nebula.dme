@@ -3443,6 +3443,7 @@
 #include "fallout\maps\ministation\jobs\fallout\town.dm"
 #include "fallout\maps\ministation\jobs\fallout\wasteland.dm"
 #include "fallout\maps\ministation\jobs\fallout\outfits\brotherhood.dm"
+#include "fallout\maps\ministation\jobs\fallout\outfits\legion.dm"
 #include "fallout\maps\ministation\jobs\fallout\outfits\ncr.dm"
 #include "fallout\maps\ministation\jobs\fallout\outfits\town.dm"
 #include "interface\interface.dm"
@@ -3490,5 +3491,7 @@
 #include "maps\~unit_tests\unit_testing.dm"
 #include "mods\_modpack.dm"
 #include "mods\content\scaling_descriptors.dm"
+#include "mods\content\fallout\melee\falloutmelee.dm"
+#include "mods\content\fallout\melee\legion.dm"
 #include "~code\global_init.dm"
 // END_INCLUDE
